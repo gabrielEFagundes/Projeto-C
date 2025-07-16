@@ -1,7 +1,8 @@
 # 🍔 Burger.dev - Sistema de Pedidos em C
 
 Bem-vindo ao **Burger.dev**, um sistema simples de pedidos de lanches feito em C para rodar no Windows! Feito especialmente para quem está aprendendo C ou quer um exemplo divertido de interação com o usuário em modo console.
-Esse foi o projeto final desenvolvido em C, foi meu primeio projeto. Feito em meados de abril/maio de 2024.
+<br><br>
+Esse foi o projeto final desenvolvido em C, foi meu primeio projeto. Feito em meados de ***abril/maio de 2024***.
 
 > Peço desculpas pela qualidade, foi meu primeiro projeto...
 
