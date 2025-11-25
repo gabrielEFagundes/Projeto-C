@@ -3,99 +3,20 @@
 #include <windows.h>
 #include <locale.h>
 
-int boasVindas(){
-    printf("\n=");
-    Sleep(100);
-    printf("=");
-    Sleep(100);
-    printf("=");
-    Sleep(100);
-    printf("=");
-    Sleep(100);
-    printf("= ");
+// retorno não precisa ser inteiro
+void boasVindas(){
+    // antes tava tudo em vários prints...
+    char letreiro[] = {'=', '=', '=', '=', '=', 
+                        'B', 'e', 'm', '-', 'V', 'i', 'n', 'd', 'o', ' ', 
+                        'a', 'o', ' ', 
+                        's', 'i', 's', 't', 'e', 'm', 'a', ' ', 
+                        'd', 'a', ' ', 
+                        'B', 'u', 'r', 'g', 'e', 'r', '.', 'd', 'e', 'v', '!', 
+                        '=' ,'=', '=', '=', '='};
 
-    Sleep(100);
-    printf("B");
-    Sleep(100);
-    printf("e");
-    Sleep(100);
-    printf("m");
-    Sleep(100);
-    printf("-");
-    Sleep(100);
-    printf("V");
-    Sleep(100);
-    printf("i");
-    Sleep(100);
-    printf("n");
-    Sleep(100);
-    printf("d");
-    Sleep(100);
-    printf("o");
-    Sleep(100);
-    printf(" ");
-    Sleep(100);
-    printf("a");
-    Sleep(100);
-    printf("o");
-    Sleep(100);
-    printf(" ");
-    Sleep(100);
-    printf("s");
-    Sleep(100);
-    printf("i");
-    Sleep(100);
-    printf("s");
-    Sleep(100);
-    printf("t");
-    Sleep(100);
-    printf("e");
-    Sleep(100);
-    printf("m");
-    Sleep(100);
-    printf("a");
-    Sleep(100);
-    printf(" ");
-    Sleep(100);
-    printf("d");
-    Sleep(100);
-    printf("a");
-    Sleep(100);
-    printf(" ");
-    Sleep(100);
-    printf("B");
-    Sleep(100);
-    printf("u");
-    Sleep(100);
-    printf("r");
-    Sleep(100);
-    printf("g");
-    Sleep(100);
-    printf("e");
-    Sleep(100);
-    printf("r");
-    Sleep(100);
-    printf(".");
-    Sleep(100);
-    printf("d");
-    Sleep(100);
-    printf("e");
-    Sleep(100);
-    printf("v");
-    Sleep(100);
-    printf("!");
-    Sleep(100);
-
-    printf(" =");
-    Sleep(100);
-    printf("=");
-    Sleep(100);
-    printf("=");
-    Sleep(100);
-    printf("=");
-    Sleep(100);
-    printf("=");
-    Sleep(100);
+    for(int i = 0; i < sizeof(letreiro); i++){
+        printf("%c", letreiro[i]);
+    }
 }
 int carregamento(){
     printf("\nImprimindo sua notinha...\n");
